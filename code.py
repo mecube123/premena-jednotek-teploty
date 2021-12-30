@@ -17,6 +17,6 @@ while True:
             C_plus_tridsatdva = C+32-C
             F = 9*C//5+C_plus_tridsatdva
         else:
-            print("spatne cislo")
+            print("napis jenom 1 nebo 2")
     except ValueError:
         print("HEJ!!! JENOM cislo napis!")
